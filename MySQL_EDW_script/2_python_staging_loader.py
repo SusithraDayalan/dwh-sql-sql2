@@ -3,10 +3,6 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-username = 'wd34user'
-password = "Inceptez%40123"
-host = '34.63.107.222'
-db = 'stgdb'
 
 engine = create_engine(f"mysql+pymysql://{username}:{password}@{host}:3306/{db}")
 folder="C:\\dataset\\"
